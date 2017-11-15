@@ -1,16 +1,20 @@
 <html>
 <head>
-<title>cloud</title>
+<title>IAAS </title>
 </head>
-<body>
-<fieldset>
-<legend>Login Here</legend>
-<form action="http://127.0.0.1/cgi-bin/recv.py">
-<input type="text" placeholder="Enter user name : " name="n">  <br/>
-<input type="password" placeholder="Enter password  : " name="p">  <br/>
-<input type="submit" value="login">
-</form>
-</fieldset>
+<body bgcolor="Yellow">
+<H1> WElcome to IAAS User based On _ demand OS  </h1>
+<form action="/cgi-bin/iaas.cgi" method="POST">
+<input  type="text" name="osn" placeholder="Enter OS Name ">  </br>
+<input  type="text" name="osr" placeholder="Enter OS RAM in MB ">  </br>
+<input  type="text" name="osc" placeholder="Enter OS CPU in COre ex: 1 ,2 ">  </br>
+<input  type="text" name="osh" placeholder="Enter OS Hard Disk">  </br>
+<!--input type="text" name="osp" placeholder="Enter port for VM access "--> </br>
 
+<input type="submit" value="Launch@@">
+
+
+
+</form>
 </body>
 </html>
